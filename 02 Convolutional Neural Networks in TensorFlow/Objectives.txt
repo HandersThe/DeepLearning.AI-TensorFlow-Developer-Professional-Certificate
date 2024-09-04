@@ -1,0 +1,24 @@
+W1
+    Gain understanding about Keras’ utilities for pre-processing image data, in particular the ImageDataGenerator class
+    Develop helper functions to move files around the filesystem so that they can be fed to the ImageDataGenerator
+    Learn how to plot training and validation accuracies to evaluate model performance
+    Build a classifier using convolutional neural networks for performing cats vs dogs classification
+	
+W2
+    Recognize the impact of adding image augmentation to the training process, particularly in time
+    Demonstrate overfitting or lack of by plotting training and validation accuracies
+    Familiarize with the ImageDataGenerator parameters used for carrying out image augmentation
+    Learn how to mitigate overfitting by using data augmentation techniques
+	
+W3
+    Master the keras layer type known as dropout to avoid overfitting
+    Achieve transfer learning in code using the keras API
+    Code a model that implements Keras’ functional API instead of the commonly used Sequential model
+    Learn how to freeze layers from an existing model to successfully implement transfer learning
+    Explore the concept of transfer learning to use the convolutions learned by a different model from a larger dataset
+	
+W4
+    Build a multiclass classifier for the Sign Language MNIST dataset
+    Learn how to properly set up the ImageDataGenerator parameters and the model definition functions for multiclass classification
+    Understand the difference between using actual image files vs images encoded in other formats and how this changes the methods available when using ImageDataGenerator
+    Code a helper function to parse a raw CSV file which contains the information of the pixel values for the images used
